@@ -10,3 +10,5 @@ pyyaml==3.13
 netaddr==0.7.19
 requests==2.20.0
 kubernetes==7.0.0
+
+rsa>=4.1 # not directly required, pinned by Snyk to avoid a vulnerability
